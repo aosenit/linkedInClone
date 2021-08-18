@@ -1,0 +1,98 @@
+.sideBar{
+    top: 80px;
+    position: sticky;
+    flex: .2;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+}
+
+.sideBar-avatar{
+    margin-bottom: 10px;
+}
+
+.sideBarTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.sideBarTop > img {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 80px;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sideBarTop > h4 {
+    color: gray;
+    font-size: 12px;
+}
+
+.sideBarTop > h2 {
+    font-size: 18px;
+}
+
+.sideBar-stat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar-stat > p {
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sideBar-statNumber{
+    font-weight: bold;
+    color: rgb(76, 76, 146)!important;
+}
+
+.sideBar-stats{
+    padding: 10px;
+    margin-bottom: 10px;
+     border: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.sideBarBottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sideBar-recentItem{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sideBar-recentItem:hover{
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.sideBar-hash{
+    margin-right: 10px;
+    margin-left: 5px;
+}
