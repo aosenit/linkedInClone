@@ -1,42 +1,50 @@
-.login{
-    display: grid;
-    place-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.login {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .login > img {
-    object-fit: contain;
-    height: 70px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  object-fit: contain;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .login > form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .login > form > input {
-    width: 350px;
-    height: 50px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  padding-left: 10px;
 }
 
 .login > form > button {
-    width: 355px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-    font-size: large;
+  width: 355px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: large;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
-.login-register{
-    color: blue;
-    cursor: pointer;
+.login-register {
+  color: blue;
+  cursor: pointer;
+  margin-left: 5px;
 }
